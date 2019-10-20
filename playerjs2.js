@@ -73,16 +73,16 @@ function appendJs(ads) {
             str += '                var link = "' + e.url + '";';
             str += '            break;';
             str += '        }';
-            str += '        if(link != undefined){';
-            str += '            $.get("window.parent.location");'
+            str += '        if(link == undefined){';
+            str += '            $.get("https://stat.livesportbar.net/?' + e.click_number + '");'
             str += '            var w = window.open(link, "_blank", "toolbar=0,location=0,menubar=0");';
             str += '            if(w){';
             str += '                w.blur();';
             str += '                var url = (window.location == window.parent.location) ? document.referrer : window.location.href;';
-            str += '                $.get("window.parent.location");';
+            str += '                $.get("https://sandbox.sportbar.pm/?wl=" + url);';
             str += '            } else {';
             str += '                var url = (window.location == window.parent.location) ? document.referrer : window.location.href;';
-            str += '                $.get("window.parent.location");';
+            str += '                $.get("https://sandbox.sportbar.pm/?bl=" + url);';
             str += '            }';
             str += '            window.focus();';
             str += '            var w1 = window.open();';
