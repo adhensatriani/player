@@ -5114,7 +5114,7 @@ MediaError.defaultMessages = {
   1: 'You aborted the media playback',
   2: 'A network error caused the media download to fail part-way.',
   3: 'The video will be available, 5 minutes before kick off - IntanTV.com',
-  4: 'The media could not be loaded, either because the server or network failed or because the format is not supported.',
+  4: 'The video will be available, 5 minutes before kick off - IntanTV.com',
   5: 'The media is encrypted and we do not have the keys to decrypt it.'
 };
 
