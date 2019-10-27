@@ -13391,7 +13391,7 @@ var LiveDisplay = function (_Component) {
 
     this.contentEl_ = createEl('div', {
       className: 'vjs-live-display',
-      innerHTML: '<span class="vjs-control-text">' + this.localize('Stream Type') + '</span>' + this.localize('LIVE')
+      innerHTML: '<span class="vjs-control-text">' + this.localize('Stream Type') + '</span>' + this.localize('LIVE - IntanTV.com')
     }, {
       'aria-live': 'off'
     });
